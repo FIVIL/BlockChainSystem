@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CryptoApi">
+      <HintPath>..\..\WalletManager\WalletManager\bin\Release\netstandard2.0\CryptoApi.dll</HintPath>
+    </Reference>
+    <Reference Include="TransactionManager">
+      <HintPath>..\..\WalletManager\WalletManager\bin\Release\netstandard2.0\TransactionManager.dll</HintPath>
+    </Reference>
+    <Reference Include="WalletManager">
+      <HintPath>..\..\WalletManager\WalletManager\bin\Release\netstandard2.0\WalletManager.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
