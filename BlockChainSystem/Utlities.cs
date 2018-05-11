@@ -11,5 +11,10 @@ namespace BlockChainSystem
         {
             return Convert.ToBase64String(Blake2B.ComputeHash(Blake2B.ComputeHash(Encoding.UTF8.GetBytes(clearstring))));
         }
+        public static Random Rnd;
+        static Utlities()
+        {
+            Rnd = new Random();
+        }
     }
 }
