@@ -10,6 +10,9 @@ namespace BlockChainSystem
 {
     class Block
     {
+        /// <summary>
+        /// 
+        /// </summary>
         public Guid ID { get; private set; }
         public string BlockName { get; set; }
         public uint Height { get; private set; }
